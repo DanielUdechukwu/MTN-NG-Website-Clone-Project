@@ -53,3 +53,19 @@ nav{
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+.search{
+  width: 70%;
+  height: 2.2rem;
+  border: .18rem solid #000;
+  padding: 0 1rem;
+}
+input{
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 80%;
+  padding-bottom: .1rem;
+}
+input::placeholder{
+  font-size: .9rem;
+}
