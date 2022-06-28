@@ -19,10 +19,37 @@ ul{
 }
 nav{
   height: 4.5rem;
+  position: relative;
 }
-.nav-links > ul > a{
-  padding-right: 2rem;
-}
-.nav-links > ul > a > li{
+.nav-link li,
+.sub-links li{
   font-size: .9rem;
+}
+.sub-links{
+  background: #000;
+  width: 16rem;
+  border-radius: 1rem;
+  position: absolute;
+  display: none;
+}
+.dropdown:hover .sub-links{
+  display: block;
+  transition: all .3s ease-in-out;
+}
+.sub-links > a > li{
+  color: #fff;
+  padding: 1rem 1.3rem;
+  border-bottom: .1rem solid #707070;
+}
+.sub-links > a >li:hover{
+  background: #4c4c4c;
+  transition: all .1s ease-in-out;
+}
+.first-li:hover{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.last-li:hover{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
