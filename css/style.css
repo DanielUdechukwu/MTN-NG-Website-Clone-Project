@@ -3,8 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
 a{
   text-decoration: none;
+  color: #000;
 }
 li{
   list-style: none;
@@ -69,3 +73,22 @@ input{
 input::placeholder{
   font-size: .9rem;
 }
+/*  */
+.learn-more{
+  background: #ffcc00;
+  border-radius: 2rem;
+  width: 9rem;
+  height: 2.5rem;
+}
+.hero-banner{
+  /* background-image: url("../images/hero-banner.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero1{
+  padding: 11rem 0 10.5rem 8rem;
+}
+/* .card-overlay {
+  background: rgba(0, 0, 0, 0.4);
+} */
