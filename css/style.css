@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  color: #000;
+}
+.logo > img{
+  width: 4.4rem;
+}
+ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+nav{
+  height: 4.5rem;
+}
+.nav-links > ul > a{
+  padding-right: 2rem;
+}
+.nav-links > ul > a > li{
+  font-size: .9rem;
+}
